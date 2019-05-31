@@ -1,0 +1,319 @@
+*{
+    /* outline: 1px dotted red;  */
+    font-family: Calibri;
+    font-weight: lighter;
+}
+
+#wrapper{
+    width: 970px;
+    min-height: 300px;
+    margin: 0px auto;
+}
+
+#header{
+    display:inline-block;
+    width: 970px;
+}
+
+img{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+    filter: contrast(120%);
+}
+
+.theinternet {
+    display: inline-block;
+    font-size: 38pt;
+    font-stretch: condensed;
+    margin: 0px auto; 
+    vertical-align: top;
+    padding: 15px 0px 0px 0px;
+
+}
+
+.theinternet span{
+    color: rgb(58,124,169);
+}
+
+.www{
+    background-image: linear-gradient( rgb(42,105,159), rgb(80,132,172),rgb(42,105,159));
+    color: white;
+    font-size: 26pt;
+    font-stretch: condensed;
+    padding: 10px 0px 10px 15px;
+    margin: -25px 0px 0px 0px; 
+}
+
+#bodywrapper{
+    min-height: 200px;
+    background-image: linear-gradient(rgb(227,227,227), white, white, white);
+    margin-top: -20px; 
+}
+
+#sidewrapper{
+    width: 210px;
+    min-height: 300px;
+    display: inline-block;
+}
+
+.whatisinternet{
+    padding: 20px 5px 0px 4px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.whatisinternet span{
+    color: rgb(217,35,27);
+    font-weight: bold;
+}
+
+.internetcontent{
+    font-weight: bold;
+    padding: 0px 0px 0px 4px;
+    font-size: 12pt;
+}
+
+.internetcontent span{
+    color:  rgb(58,124,169);
+    font-weight: bold;
+}
+
+.shadow {
+    box-shadow: 3px 3px 2px rgb(142,142,142);
+}
+
+.video{
+    background-image: linear-gradient(rgb(100,154,196),rgb(34,102,154));
+    color: white;
+    margin: 25px 5px 0px 5px;
+    text-align: center;
+    font-size: 16pt;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+}
+
+.resources{
+    background-image: linear-gradient(rgb(234,173,88),rgb(240,115,0));
+    color: white;
+    margin: 6px 5px 0px 5px;
+    text-align: center;
+    font-size: 16pt;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+}
+
+.linebreak{
+    height: 2px;
+    background-image: linear-gradient(rgb(154,154,154),rgb(234,234,234));
+    display: block;
+    margin: 20px 0px 15px 0px;
+}
+
+.ad{
+    background-image: url("img/ad_background.png");
+    min-height: 325px;
+}
+
+.ad .reinvent{
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    padding: 15px 8px 5px 12px;
+
+}
+
+.ninja{
+    width: 100px;
+    height: auto;
+    padding: 0px 55px 0px 55px;
+    display: block;
+    margin-top: -30px;
+}
+
+.learnmore{
+    background-image: linear-gradient(rgb(124,209,223),rgb(44,192,223));
+    color: white;
+    margin: 15px 20px 0px 20px;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 2px black;
+    font-weight: 500;
+}
+
+.learnmore span{
+    font-size: 6pt;
+    vertical-align: middle;
+    font-weight: bolder;
+    font-family: "Arial black";
+    font-stretch: extra-condensed;
+    background-image: linear-gradient(to right,rgb(134,222,236),rgb(255,255,255));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#contentwrapper{
+    display: inline-block;
+    min-height: 20px;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 736px;
+}
+
+
+.home{
+    display: inline-block;
+    width: 20px;
+    height: auto;
+    margin: -10px 0px 5px 35px;
+    position: relative;
+    bottom: 12px;
+}
+
+.DNS{
+    display: inline-block;
+    color: rgb(58,124,169);
+    font-size: 14pt;
+    margin: -15px 435px 0px 0px;
+    position: relative;
+    bottom: 20px;
+}
+
+.phone{
+    width: 40px;
+    height: auto;
+    display: inline-block;
+    margin-right: 13px;
+    position: relative;
+    top: 0px;
+}
+
+.contactwrapper{
+    display: inline-block;
+}
+
+.contactcontent{
+    display: block;
+    color: rgb(92,92,92);
+    font-size: 9pt;
+    height: 20px;
+    margin: 0px;
+
+}
+
+.phonenumber{
+    display: block;
+    color: rgb(44,192,223);
+    font-size: 20pt;
+    font-weight: bold;
+    margin-top: -15px;
+    position: relative;
+    right: 7px;
+}
+
+.international{
+    margin-top: -20px;
+    margin-left: 5px;
+    padding-right: 5px;
+    font-size: 8pt;
+    
+}
+
+.body {
+    position: relative;
+    top: 15px;
+    margin: 0px 5px 0px 35px;
+}
+
+#mainbody{
+    margin-left: 30px;
+    width: 710px;
+}
+
+.bodytitle{
+    color: rgb(58,124,169);
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: -15px;
+}
+
+.cnscontent span{
+    color: rgb(32,151,174);
+}
+
+.cnscontent span1{
+    font-weight: bold;
+}
+
+ul{
+    margin-top: -5px;
+}
+
+ul span{
+    color: rgb(32,151,174);
+}
+
+.clientserver{
+    display: block;
+    margin: 0px auto 0px 200px;
+    width: 285px;
+    height: auto;
+}
+
+ol span{
+    color: rgb(32,151,174);
+}
+
+li{
+    margin: 5px 0px 5px 0px;
+}
+
+#footer{
+    border-top: 5px solid rgb(26,133,224);
+    border-right: 5px solid rgb(26,133,224);
+    border-left: 5px solid rgb(26,133,224);
+    box-shadow: 3px 0px 2px rgb(142,142,142);
+    display: inline-block;
+    margin: 0px 0px 0px 35px;
+    height: 140px;
+}
+
+.big3img{
+    width: 125px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+.big3title{
+    color: rgb(58,124,169);
+    font-size: 16pt;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+#big3main{
+    display: inline-block;
+    width: 542px;
+    position: relative;
+    bottom: 20px;
+}
+
+.big3content{
+    display: inline-block;
+    margin: -12px 0px 0px 0px;
+}
+
+.big3learnmore{
+    margin-top: -1px;
+}
+
+.big3learnmore span{
+    color: rgb(32,151,174);
+}
